@@ -1,0 +1,9 @@
+read x;
+if x > 0 then
+  sum := 0;
+  repeat
+    sum := sum + x;
+    x := x - 1
+  until x = 0;
+  write sum
+end
